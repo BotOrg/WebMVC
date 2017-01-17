@@ -1,0 +1,188 @@
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\obj\Debug\WebMVC.csprojResolveAssemblyReference.cache
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\ApplicationInsights.config
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\roslyn\csc.exe
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\roslyn\vbc.exe
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\WebMVC.dll.config
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\WebMVC.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\WebMVC.pdb
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Antlr3.Runtime.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\EntityFramework.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.AI.Web.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.Owin.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.Owin.Security.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Newtonsoft.Json.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Owin.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\System.Web.Helpers.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\System.Web.Mvc.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\System.Web.Optimization.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\System.Web.Razor.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\System.Web.WebPages.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\WebGrease.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\WebMVC.COMMON.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\WebMVC.DataAccessLayer.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\WebMVC.ENTITIES.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\WebMVC.COMMON.pdb
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\WebMVC.DataAccessLayer.pdb
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\WebMVC.ENTITIES.pdb
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\EntityFramework.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.AI.Web.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\System.Web.Helpers.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\System.Web.Mvc.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\System.Web.Optimization.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\System.Web.Razor.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\System.Web.WebPages.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Antlr3.Runtime.pdb
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Newtonsoft.Json.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.Owin.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.Owin.Security.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\obj\Debug\WebMVC.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\obj\Debug\WebMVC.pdb
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\AutoMapper.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\PagedList.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\PagedList.Mvc.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\AutoMapper.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\PagedList.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC\bin\PagedList.Mvc.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\ApplicationInsights.config
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\roslyn\csc.exe
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\roslyn\System.Collections.Immutable.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\roslyn\vbc.exe
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\roslyn\VBCSCompiler.exe
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\roslyn\VBCSCompiler.exe.config
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\WebMVC.dll.config
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\WebMVC.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\WebMVC.pdb
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Antlr3.Runtime.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\AutoMapper.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\EntityFramework.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\EntityFramework.SqlServer.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.AI.Web.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.ApplicationInsights.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.Owin.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.Owin.Security.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Newtonsoft.Json.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Owin.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\PagedList.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\PagedList.Mvc.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\System.Web.Helpers.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\System.Web.Mvc.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\System.Web.Optimization.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\System.Web.Razor.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\System.Web.WebPages.Deployment.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\System.Web.WebPages.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\System.Web.WebPages.Razor.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\WebGrease.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\WebMVC.COMMON.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\WebMVC.DataAccessLayer.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\WebMVC.ENTITIES.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\WebMVC.COMMON.pdb
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\WebMVC.DataAccessLayer.pdb
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\WebMVC.ENTITIES.pdb
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\AutoMapper.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\EntityFramework.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\EntityFramework.SqlServer.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.AI.Web.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.ApplicationInsights.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\PagedList.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\PagedList.Mvc.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\System.Web.Helpers.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\System.Web.Mvc.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\System.Web.Optimization.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\System.Web.Razor.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\System.Web.WebPages.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\System.Web.WebPages.Deployment.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\System.Web.WebPages.Razor.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Antlr3.Runtime.pdb
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Newtonsoft.Json.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.Owin.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.Owin.Security.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\obj\Debug\WebMVC.csprojResolveAssemblyReference.cache
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\obj\Debug\WebMVC.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC\obj\Debug\WebMVC.pdb

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0219db01a493469d9f5ac44443779555" Name="Diagram1">
+        <EntityTypeShape EntityType="WebMVC_Model.BaiViet" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebMVC_Model.DMCapHocVien" Width="1.5" PointX="3.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebMVC_Model.DMChuDe" Width="1.5" PointX="3.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebMVC_Model.DMChuDeBaiViet" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebMVC_Model.DMGioiTinh" Width="1.5" PointX="3.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebMVC_Model.DMHienThi" Width="1.5" PointX="0.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebMVC_Model.DMLoaiKhoaHoc" Width="1.5" PointX="3.75" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebMVC_Model.DMNgonNguLapTrinh" Width="1.5" PointX="3.75" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebMVC_Model.DMQuyenQuanTri" Width="1.5" PointX="8.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebMVC_Model.GiangVien" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebMVC_Model.HocVien" Width="1.5" PointX="6" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebMVC_Model.KhoaHoc" Width="1.5" PointX="6" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebMVC_Model.KhoaHoc_GiangVien" Width="1.5" PointX="8.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebMVC_Model.QuanTriVien" Width="1.5" PointX="11" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebMVC_Model.SlideShow" Width="1.5" PointX="8.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebMVC_Model.sysdiagram" Width="1.5" PointX="0.75" PointY="9.375" IsExpanded="true" />
+        <AssociationConnector Association="WebMVC_Model.FK_BaiViet_DMChuDeBaiViet" ManuallyRouted="false" />
+        <AssociationConnector Association="WebMVC_Model.FK_BaiViet_DMHienThi" ManuallyRouted="false" />
+        <AssociationConnector Association="WebMVC_Model.FK_SlideShow_BaiViet" ManuallyRouted="false" />
+        <AssociationConnector Association="WebMVC_Model.FK_KhoaHoc_DMCapHocVien" ManuallyRouted="false" />
+        <AssociationConnector Association="WebMVC_Model.FK_KhoaHoc_DMChuDe" ManuallyRouted="false" />
+        <AssociationConnector Association="WebMVC_Model.FK_GiangVien_DMGioiTinh1" ManuallyRouted="false" />
+        <AssociationConnector Association="WebMVC_Model.FK_HocVien_DMGioiTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="WebMVC_Model.FK_KhoaHoc_DMHienThi1" ManuallyRouted="false" />
+        <AssociationConnector Association="WebMVC_Model.FK_KhoaHoc_DMLoaiKhoaHoc" ManuallyRouted="false" />
+        <AssociationConnector Association="WebMVC_Model.FK_KhoaHoc_DMNgonNguLapTrinh" ManuallyRouted="false" />
+        <AssociationConnector Association="WebMVC_Model.FK_QuanTriVien_DMQuyenQuanTri" ManuallyRouted="false" />
+        <AssociationConnector Association="WebMVC_Model.FK_KhoaHoc_GiangVien_GiangVien" ManuallyRouted="false" />
+        <AssociationConnector Association="WebMVC_Model.FK_KhoaHoc_GiangVien_KhoaHoc" ManuallyRouted="false" />
+        <AssociationConnector Association="WebMVC_Model.FK_SlideShow_KhoaHoc" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

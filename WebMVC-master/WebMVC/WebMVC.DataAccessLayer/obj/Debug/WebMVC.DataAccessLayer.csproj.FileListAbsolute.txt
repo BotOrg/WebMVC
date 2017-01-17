@@ -1,0 +1,20 @@
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.DataAccessLayer\bin\Debug\WebMVC.DataAccessLayer.dll.config
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.DataAccessLayer\bin\Debug\WebMVC.DataAccessLayer.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.DataAccessLayer\bin\Debug\WebMVC.DataAccessLayer.pdb
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.DataAccessLayer\obj\Debug\WebMVC.DataAccessLayer.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.DataAccessLayer\obj\Debug\WebMVC.DataAccessLayer.pdb
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.DataAccessLayer\obj\Debug\WebMVC.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC.DataAccessLayer\bin\Debug\WebMVC.DataAccessLayer.dll.config
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC.DataAccessLayer\bin\Debug\WebMVC.DataAccessLayer.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC.DataAccessLayer\bin\Debug\WebMVC.DataAccessLayer.pdb
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC.DataAccessLayer\bin\Debug\EntityFramework.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC.DataAccessLayer\bin\Debug\EntityFramework.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC.DataAccessLayer\obj\Debug\WebMVC.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC.DataAccessLayer\obj\Debug\WebMVC.DataAccessLayer.dll
+E:\GITHUB\HonC\WebMVC\WebMVC\WebMVC.DataAccessLayer\obj\Debug\WebMVC.DataAccessLayer.pdb

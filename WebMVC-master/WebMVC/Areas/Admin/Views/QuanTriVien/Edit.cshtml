@@ -1,0 +1,89 @@
+﻿@model WebMVC.ENTITIES.CrudModel.CrudModelQuanTriVien
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@section header{
+    Cập nhật quản trị viên
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Câp nhật thông tin người dùng.
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-6">
+                        @using (Html.BeginForm("Edit", "QuanTriVien", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.HiddenFor(model=>model.MaQuanTriVien)
+                            <hr />
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="row">
+                                <div class="col-md-4 control-label">
+                                    Tên đăng nhập:
+                                </div>
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(model => model.TenDangNhap, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.TenDangNhap, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-4 control-label">
+                                    Tên hiển thị:
+                                </div>
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(model => model.TenHienThi, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.TenHienThi, "", new { @class = "text-danger" })
+
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-4 control-label">
+                                    Mật khẩu:
+                                </div>
+                                <div class="col-md-4">
+                                    @Html.PasswordFor(model => model.MatKhau, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.MatKhau, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-4 control-label">
+                                    Quyền quản trị viên:
+                                </div>
+                                <div class="col-md-4">
+                                    @Html.DropDownListFor(model => model.MaQuyenQuanTri, (SelectList)ViewBag.lstQuyenQuanTri, "Lựa Chọn", new { @class = "form-control", @id = "lstActivedll_dll" })
+                                    @Html.ValidationMessageFor(model => model.MaQuyenQuanTri, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    @*<input type="submit" value="Cập nhật" class="btn btn-info btn-sm" />*@
+                                    <button type="submit" class="btn btn-danger btn-sm">
+                                        <span class="glyphicon glyphicon-floppy-disk"></span> Cập nhật
+                                    </button>
+                                    &nbsp;&nbsp;
+                                    @Html.ActionLink("Quay lại", "Index", null, new { @class = "btn btn-primary btn-sm" })
+                                </div>
+
+                            </div>
+                        }
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

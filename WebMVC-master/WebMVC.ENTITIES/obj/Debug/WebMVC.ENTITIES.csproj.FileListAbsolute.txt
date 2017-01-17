@@ -1,0 +1,64 @@
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.ENTITIES\bin\Debug\WebMVC.ENTITIES.dll.config
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.ENTITIES\bin\Debug\WebMVC.ENTITIES.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.ENTITIES\bin\Debug\WebMVC.ENTITIES.pdb
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.ENTITIES\bin\Debug\EntityFramework.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.ENTITIES\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.ENTITIES\bin\Debug\PagedList.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.ENTITIES\bin\Debug\PagedList.Mvc.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.ENTITIES\bin\Debug\WebMVC.DataAccessLayer.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.ENTITIES\bin\Debug\WebMVC.DataAccessLayer.pdb
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.ENTITIES\bin\Debug\EntityFramework.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.ENTITIES\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.ENTITIES\bin\Debug\PagedList.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.ENTITIES\bin\Debug\PagedList.Mvc.xml
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.ENTITIES\obj\Debug\WebMVC.ENTITIES.csprojResolveAssemblyReference.cache
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.ENTITIES\obj\Debug\WebMVC.ENTITIES.dll
+C:\Users\HonC\documents\visual studio 2015\Projects\WebMVC\WebMVC.ENTITIES\obj\Debug\WebMVC.ENTITIES.pdb
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\bin\Debug\WebMVC.ENTITIES.dll.config
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\bin\Debug\WebMVC.ENTITIES.dll
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\bin\Debug\WebMVC.ENTITIES.pdb
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\bin\Debug\EntityFramework.dll
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\bin\Debug\EntityFramework.SqlServer.dll
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\bin\Debug\PagedList.dll
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\bin\Debug\PagedList.Mvc.dll
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\bin\Debug\WebMVC.DataAccessLayer.dll
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\bin\Debug\System.Web.WebPages.dll
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\bin\Debug\System.Web.Razor.dll
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\bin\Debug\WebMVC.DataAccessLayer.pdb
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\bin\Debug\EntityFramework.xml
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\bin\Debug\EntityFramework.SqlServer.xml
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\bin\Debug\PagedList.xml
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\bin\Debug\PagedList.Mvc.xml
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\bin\Debug\System.Web.WebPages.xml
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\bin\Debug\Microsoft.Web.Infrastructure.xml
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\bin\Debug\System.Web.Razor.xml
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\obj\Debug\WebMVC.ENTITIES.csprojResolveAssemblyReference.cache
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\obj\Debug\WebMVC.ENTITIES.dll
+E:\GITHUB\HonC\WebMVC\WebMVC.ENTITIES\obj\Debug\WebMVC.ENTITIES.pdb
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\bin\Debug\WebMVC.ENTITIES.dll.config
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\bin\Debug\WebMVC.ENTITIES.dll
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\bin\Debug\WebMVC.ENTITIES.pdb
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\bin\Debug\EntityFramework.dll
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\bin\Debug\EntityFramework.SqlServer.dll
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\bin\Debug\PagedList.dll
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\bin\Debug\PagedList.Mvc.dll
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\bin\Debug\WebMVC.DataAccessLayer.dll
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\bin\Debug\System.Web.WebPages.dll
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\bin\Debug\System.Web.Razor.dll
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\bin\Debug\WebMVC.DataAccessLayer.pdb
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\bin\Debug\EntityFramework.xml
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\bin\Debug\EntityFramework.SqlServer.xml
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\bin\Debug\PagedList.xml
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\bin\Debug\PagedList.Mvc.xml
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\bin\Debug\System.Web.WebPages.xml
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\bin\Debug\Microsoft.Web.Infrastructure.xml
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\bin\Debug\System.Web.Razor.xml
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\obj\Debug\WebMVC.ENTITIES.csprojResolveAssemblyReference.cache
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\obj\Debug\WebMVC.ENTITIES.dll
+E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\obj\Debug\WebMVC.ENTITIES.pdb

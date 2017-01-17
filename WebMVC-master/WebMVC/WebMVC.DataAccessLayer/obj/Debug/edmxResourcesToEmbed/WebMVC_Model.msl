@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WebMVC_ModelStoreContainer" CdmEntityContainer="Database_EducationEntities">
+    <EntitySetMapping Name="BaiViets">
+      <EntityTypeMapping TypeName="WebMVC_Model.BaiViet">
+        <MappingFragment StoreEntitySet="BaiViet">
+          <ScalarProperty Name="MaBaiViet" ColumnName="MaBaiViet" />
+          <ScalarProperty Name="TenBaiViet" ColumnName="TenBaiViet" />
+          <ScalarProperty Name="NoiDung" ColumnName="NoiDung" />
+          <ScalarProperty Name="MaChuDeBaiViet" ColumnName="MaChuDeBaiViet" />
+          <ScalarProperty Name="MaHienThi" ColumnName="MaHienThi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DMCapHocViens">
+      <EntityTypeMapping TypeName="WebMVC_Model.DMCapHocVien">
+        <MappingFragment StoreEntitySet="DMCapHocVien">
+          <ScalarProperty Name="MaCapHocVien" ColumnName="MaCapHocVien" />
+          <ScalarProperty Name="TenCapHocVien" ColumnName="TenCapHocVien" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DMChuDes">
+      <EntityTypeMapping TypeName="WebMVC_Model.DMChuDe">
+        <MappingFragment StoreEntitySet="DMChuDe">
+          <ScalarProperty Name="MaChuDe" ColumnName="MaChuDe" />
+          <ScalarProperty Name="TenChuDe" ColumnName="TenChuDe" />
+          <ScalarProperty Name="CapChuDe" ColumnName="CapChuDe" />
+          <ScalarProperty Name="ChuDeCha" ColumnName="ChuDeCha" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DMChuDeBaiViets">
+      <EntityTypeMapping TypeName="WebMVC_Model.DMChuDeBaiViet">
+        <MappingFragment StoreEntitySet="DMChuDeBaiViet">
+          <ScalarProperty Name="MaChuDeBaiViet" ColumnName="MaChuDeBaiViet" />
+          <ScalarProperty Name="TenChuDeBaiViet" ColumnName="TenChuDeBaiViet" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DMGioiTinhs">
+      <EntityTypeMapping TypeName="WebMVC_Model.DMGioiTinh">
+        <MappingFragment StoreEntitySet="DMGioiTinh">
+          <ScalarProperty Name="MaGioiTinh" ColumnName="MaGioiTinh" />
+          <ScalarProperty Name="TenGioiTinh" ColumnName="TenGioiTinh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DMHienThis">
+      <EntityTypeMapping TypeName="WebMVC_Model.DMHienThi">
+        <MappingFragment StoreEntitySet="DMHienThi">
+          <ScalarProperty Name="MaHienThi" ColumnName="MaHienThi" />
+          <ScalarProperty Name="TenHienThi" ColumnName="TenHienThi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DMLoaiKhoaHocs">
+      <EntityTypeMapping TypeName="WebMVC_Model.DMLoaiKhoaHoc">
+        <MappingFragment StoreEntitySet="DMLoaiKhoaHoc">
+          <ScalarProperty Name="MaLoaiKhoaHoc" ColumnName="MaLoaiKhoaHoc" />
+          <ScalarProperty Name="TenLoaiKhoaHoc" ColumnName="TenLoaiKhoaHoc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DMNgonNguLapTrinhs">
+      <EntityTypeMapping TypeName="WebMVC_Model.DMNgonNguLapTrinh">
+        <MappingFragment StoreEntitySet="DMNgonNguLapTrinh">
+          <ScalarProperty Name="MaNgonNguLapTrinh" ColumnName="MaNgonNguLapTrinh" />
+          <ScalarProperty Name="TenNgonNguLapTrinh" ColumnName="TenNgonNguLapTrinh" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DMQuyenQuanTris">
+      <EntityTypeMapping TypeName="WebMVC_Model.DMQuyenQuanTri">
+        <MappingFragment StoreEntitySet="DMQuyenQuanTri">
+          <ScalarProperty Name="MaQuyenQuanTri" ColumnName="MaQuyenQuanTri" />
+          <ScalarProperty Name="TenQuyenQuanTri" ColumnName="TenQuyenQuanTri" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GiangViens">
+      <EntityTypeMapping TypeName="WebMVC_Model.GiangVien">
+        <MappingFragment StoreEntitySet="GiangVien">
+          <ScalarProperty Name="MaGiangVien" ColumnName="MaGiangVien" />
+          <ScalarProperty Name="TenGiangVien" ColumnName="TenGiangVien" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="TieuSu" ColumnName="TieuSu" />
+          <ScalarProperty Name="HocVi" ColumnName="HocVi" />
+          <ScalarProperty Name="AnhDaiDien" ColumnName="AnhDaiDien" />
+          <ScalarProperty Name="MaGioiTinh" ColumnName="MaGioiTinh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HocViens">
+      <EntityTypeMapping TypeName="WebMVC_Model.HocVien">
+        <MappingFragment StoreEntitySet="HocVien">
+          <ScalarProperty Name="MaHocVien" ColumnName="MaHocVien" />
+          <ScalarProperty Name="TenHocVien" ColumnName="TenHocVien" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="DienThoai" ColumnName="DienThoai" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="CMTND" ColumnName="CMTND" />
+          <ScalarProperty Name="NoiSinh" ColumnName="NoiSinh" />
+          <ScalarProperty Name="MaCapHocVien" ColumnName="MaCapHocVien" />
+          <ScalarProperty Name="MaGioiTinh" ColumnName="MaGioiTinh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KhoaHocs">
+      <EntityTypeMapping TypeName="WebMVC_Model.KhoaHoc">
+        <MappingFragment StoreEntitySet="KhoaHoc">
+          <ScalarProperty Name="MaKhoaHoc" ColumnName="MaKhoaHoc" />
+          <ScalarProperty Name="TenKhoaHoc" ColumnName="TenKhoaHoc" />
+          <ScalarProperty Name="NgayKhoiTao" ColumnName="NgayKhoiTao" />
+          <ScalarProperty Name="NgayKetThuc" ColumnName="NgayKetThuc" />
+          <ScalarProperty Name="SoLuongHocVien" ColumnName="SoLuongHocVien" />
+          <ScalarProperty Name="SoLuongBuoiHoc" ColumnName="SoLuongBuoiHoc" />
+          <ScalarProperty Name="SoLuongHocTrinh" ColumnName="SoLuongHocTrinh" />
+          <ScalarProperty Name="MaChuDe" ColumnName="MaChuDe" />
+          <ScalarProperty Name="MaLoaiKhoaHoc" ColumnName="MaLoaiKhoaHoc" />
+          <ScalarProperty Name="MaCapHocVien" ColumnName="MaCapHocVien" />
+          <ScalarProperty Name="MaNgonNguLapTrinh" ColumnName="MaNgonNguLapTrinh" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+          <ScalarProperty Name="AnhKhoaHoc" ColumnName="AnhKhoaHoc" />
+          <ScalarProperty Name="MaHienThi" ColumnName="MaHienThi" />
+          <ScalarProperty Name="HocPhi" ColumnName="HocPhi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KhoaHoc_GiangVien">
+      <EntityTypeMapping TypeName="WebMVC_Model.KhoaHoc_GiangVien">
+        <MappingFragment StoreEntitySet="KhoaHoc_GiangVien">
+          <ScalarProperty Name="MaGiangVien" ColumnName="MaGiangVien" />
+          <ScalarProperty Name="MaKhoaHoc" ColumnName="MaKhoaHoc" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuanTriViens">
+      <EntityTypeMapping TypeName="WebMVC_Model.QuanTriVien">
+        <MappingFragment StoreEntitySet="QuanTriVien">
+          <ScalarProperty Name="MaQuanTriVien" ColumnName="MaQuanTriVien" />
+          <ScalarProperty Name="TenDangNhap" ColumnName="TenDangNhap" />
+          <ScalarProperty Name="TenHienThi" ColumnName="TenHienThi" />
+          <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+          <ScalarProperty Name="MaQuyenQuanTri" ColumnName="MaQuyenQuanTri" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SlideShows">
+      <EntityTypeMapping TypeName="WebMVC_Model.SlideShow">
+        <MappingFragment StoreEntitySet="SlideShow">
+          <ScalarProperty Name="MaSlide" ColumnName="MaSlide" />
+          <ScalarProperty Name="TenSlide" ColumnName="TenSlide" />
+          <ScalarProperty Name="MaKhoaHoc" ColumnName="MaKhoaHoc" />
+          <ScalarProperty Name="MaBaiViet" ColumnName="MaBaiViet" />
+          <ScalarProperty Name="AnhSlide" ColumnName="AnhSlide" />
+          <ScalarProperty Name="MaHienThi" ColumnName="MaHienThi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="WebMVC_Model.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
