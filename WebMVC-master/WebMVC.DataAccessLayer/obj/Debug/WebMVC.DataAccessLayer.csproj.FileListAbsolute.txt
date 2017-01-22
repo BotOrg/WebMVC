@@ -28,3 +28,13 @@ E:\Programming\GitHub\WebMVC\WebMVC.DataAccessLayer\bin\Debug\EntityFramework.Sq
 E:\Programming\GitHub\WebMVC\WebMVC.DataAccessLayer\obj\Debug\WebMVC.DataAccessLayer.csprojResolveAssemblyReference.cache
 E:\Programming\GitHub\WebMVC\WebMVC.DataAccessLayer\obj\Debug\WebMVC.DataAccessLayer.dll
 E:\Programming\GitHub\WebMVC\WebMVC.DataAccessLayer\obj\Debug\WebMVC.DataAccessLayer.pdb
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.DataAccessLayer\bin\Debug\WebMVC.DataAccessLayer.dll.config
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.DataAccessLayer\bin\Debug\WebMVC.DataAccessLayer.dll
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.DataAccessLayer\bin\Debug\WebMVC.DataAccessLayer.pdb
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.DataAccessLayer\bin\Debug\EntityFramework.dll
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.DataAccessLayer\bin\Debug\EntityFramework.xml
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.DataAccessLayer\obj\Debug\WebMVC.DataAccessLayer.dll
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.DataAccessLayer\obj\Debug\WebMVC.DataAccessLayer.pdb
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.DataAccessLayer\obj\Debug\WebMVC.DataAccessLayer.csprojResolveAssemblyReference.cache

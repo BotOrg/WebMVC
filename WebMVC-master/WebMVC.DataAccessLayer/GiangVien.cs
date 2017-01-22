@@ -11,7 +11,8 @@ namespace WebMVC.DataAccessLayer
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class GiangVien
     {
         public GiangVien()
@@ -21,6 +22,7 @@ namespace WebMVC.DataAccessLayer
     
         public long MaGiangVien { get; set; }
         public string TenGiangVien { get; set; }
+        [DisplayFormat(DataFormatString = "{0:MM/dd/yyyy}")]
         public Nullable<System.DateTime> NgaySinh { get; set; }
         public string TieuSu { get; set; }
         public string HocVi { get; set; }

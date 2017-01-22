@@ -11,11 +11,14 @@ namespace WebMVC.DataAccessLayer
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class HocVien
     {
+
         public long MaHocVien { get; set; }
         public string TenHocVien { get; set; }
+        [DisplayFormat(DataFormatString = "{0:MM/dd/yyyy}")]
         public Nullable<System.DateTime> NgaySinh { get; set; }
         public string DienThoai { get; set; }
         public string Email { get; set; }

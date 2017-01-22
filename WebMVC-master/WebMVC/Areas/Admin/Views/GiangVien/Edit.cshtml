@@ -1,0 +1,113 @@
+﻿@model WebMVC.ENTITIES.CrudModel.CrudModelGiangVien
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@section header{
+    Thêm mới quản trị viên
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Cập nhật tin giảng viên.
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-6">
+                        @using (Html.BeginForm("Edit", "GiangVien", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.HiddenFor(model => model.MaGiangVien)
+                            <hr />
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="row">
+                                <div class="col-md-4 control-label">
+                                    Tên giảng viên:
+                                </div>
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(model => model.TenGiangVien, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.TenGiangVien, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="control-label col-md-4">
+                                    Ngày sinh:
+                                </div>
+                                <div class="col-md-5">
+                                    @Html.EditorFor(model => model.NgaySinh, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.NgaySinh, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 control-label">
+                                    Giới tính :
+                                </div>
+                                <div class="col-md-5">
+                                    @Html.DropDownListFor(model => model.MaGioiTinh, (SelectList)ViewBag.lstGioiTinh, "Lựa Chọn", new { @class = "form-control", @id = "lstActivedll_dll" })
+                                    @Html.ValidationMessageFor(model => model.MaGioiTinh, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-4 control-label">
+                                    Tiểu sử:
+                                </div>
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(model => model.TieuSu, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.TieuSu, "", new { @class = "text-danger" })
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 control-label">
+                                    Học vị:
+                                </div>
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(model => model.HocVi, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.HocVi, "", new { @class = "text-danger" })
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 control-label">
+                                    Ảnh đại diện:
+                                </div>
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(model => model.AnhDaiDien, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.AnhDaiDien, "", new { @class = "text-danger" })
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-10 ">
+                                    <button type="submit" class="btn btn-primary">
+                                        <span class="glyphicon glyphicon-floppy-disk"></span> Cập nhật
+                                    </button>
+                                    &nbsp;&nbsp;
+                                    @Html.ActionLink("Quay lại", "Index", null, new { @class = "btn btn-primary btn-sm" })
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+<script>
+
+    $(document).ready(function () {
+        $("#NgaySinh").on('input', function () {
+            $('#NgaySinh').val($(this).val());
+        });
+    });
+</script>

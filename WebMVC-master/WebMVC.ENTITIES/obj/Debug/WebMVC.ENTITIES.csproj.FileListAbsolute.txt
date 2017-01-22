@@ -62,3 +62,19 @@ E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\bin\Debug\System.Web.WebPages.Deplo
 E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\obj\Debug\WebMVC.ENTITIES.csprojResolveAssemblyReference.cache
 E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\obj\Debug\WebMVC.ENTITIES.dll
 E:\Programming\GitHub\WebMVC\WebMVC.ENTITIES\obj\Debug\WebMVC.ENTITIES.pdb
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.ENTITIES\bin\Debug\WebMVC.ENTITIES.dll.config
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.ENTITIES\bin\Debug\WebMVC.ENTITIES.dll
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.ENTITIES\bin\Debug\WebMVC.ENTITIES.pdb
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.ENTITIES\bin\Debug\EntityFramework.dll
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.ENTITIES\bin\Debug\EntityFramework.SqlServer.dll
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.ENTITIES\bin\Debug\PagedList.dll
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.ENTITIES\bin\Debug\PagedList.Mvc.dll
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.ENTITIES\bin\Debug\WebMVC.DataAccessLayer.dll
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.ENTITIES\bin\Debug\WebMVC.DataAccessLayer.pdb
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.ENTITIES\bin\Debug\EntityFramework.xml
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.ENTITIES\bin\Debug\EntityFramework.SqlServer.xml
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.ENTITIES\bin\Debug\PagedList.xml
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.ENTITIES\bin\Debug\PagedList.Mvc.xml
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.ENTITIES\obj\Debug\WebMVC.ENTITIES.csprojResolveAssemblyReference.cache
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.ENTITIES\obj\Debug\WebMVC.ENTITIES.dll
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.ENTITIES\obj\Debug\WebMVC.ENTITIES.pdb

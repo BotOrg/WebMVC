@@ -96,6 +96,17 @@ namespace WebMVC.Areas.Admin.Controllers
         }
         #endregion
 
+        #region Delete
+        public ActionResult Delete(long MaQuanTriVien)
+        {
+            _db.DbContext.Configuration.ProxyCreationEnabled = false;
+            QuanTriVien model = _db.GetOne<QuanTriVien>(o => o.MaQuanTriVien == MaQuanTriVien);
+            _db.DeleteItem<QuanTriVien>(model);
+
+            return RedirectToAction("Index");
+        }
+
+        #endregion
         public void initialCategoryEditAction(CrudModelQuanTriVien view)
         {
             //ViewBag.lstQuyenQuanTri = new SelectList(_db.Filter<DMQuyenQuanTri>(x => x.MaQuyenQuanTri == view.MaQuyenQuanTri), "MaQuyenQuanTri", "TenQuyenQuanTri");
