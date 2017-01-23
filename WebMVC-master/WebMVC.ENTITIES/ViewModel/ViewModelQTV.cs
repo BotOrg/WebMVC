@@ -28,6 +28,7 @@ namespace WebMVC.ENTITIES.ViewModel
 
         public virtual CrudModelDMQuyenQuanTri DMQuyenQuanTri { get; set; }
         public List<DMQuyenQuanTri> lstDMQuyenQuanTri { get; set; }
+
         public IPagedList<QuanTriVien> SearchResults { get; set; }
     }
 }

@@ -1,12 +1,124 @@
-﻿
+﻿@model WebMVC.ENTITIES.ViewModel.ViewModelHocVien
+
+@using PagedList.Mvc;
 @{
     ViewBag.Title = "Index";
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
-@section header
-{
-    Học viên
-    }
-<h2>Index</h2>
+@section header{
+    Danh sách Học viên
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">Thông tin học viên</div>
+            <div class="panel-body">
+                <div class="row">
+                    @using (Html.BeginForm("Index", "HocVien", FormMethod.Get))
+            {
+                        <div class="row form-group">
+                            <div class="col-lg-12">
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(model => model.TenHocVien, new { @class = "form-control" })
+                                </div>
+                                <div class="col-md-4">
+                                    <button type="submit" class="btn btn-success">Tìm kiếm</button>
+                                    <a class="btn btn-primary" href="/Admin/HocVien/Create">Thêm mới</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+                @*<legend class="head_title">Kết quả tìm kiếm</legend>*@
 
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Tên giảng viên
+                                </th>
+                                <th>
+                                    Ngày sinh
+                                </th>
+                                <th>
+                                    Giới tính
+                                </th>
+                                <th>
+                                    Điện thoại
+                                </th>
+                                <th>
+                                    Email
+                                </th>
+                                <th>
+                                    Mã cấp HV
+                                </th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                if (Model.SearchResults != null)
+                                {
+                                    foreach (var item in Model.SearchResults)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.TenHocVien)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.NgaySinh)
+                                            </td>
+                                            <td>
+                                                @{
+                                                    foreach (var a in Model.lstDMGioiTinh)
+                                                    {
+                                                        if (a.MaGioiTinh == item.MaGioiTinh)
+                                                        {
+                                                            @Html.DisplayFor(modelItem => a.TenGioiTinh);
+                                                        }
+                                                    }
+                                                }
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.DienThoai)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Email )
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.MaCapHocVien)
+                                            </td>
+
+                                            <td>
+                                                <div class="pull-right">
+
+                                                    <a href="@Url.Action("Edit", "HocVien", new { MaHocVien = item.MaHocVien })">
+                                                        <img src="@Url.Content("/fonts/grid-edit-icon.png")" title="Sửa" />
+                                                    </a>
+                                                    <a href="@Url.Action("Delete", "HocVien", new { MaHocVien = item.MaHocVien })" delete- delete-modal="">
+                                                        <img src="@Url.Content("/fonts/grid-delete-icon1.gif")" title="Hủy học viên" />
+                                                    </a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                                        }
+                                                    }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="pagination-sm" style="clear:both; padding: 5px 0;">
+                    @Html.PagedListPager(Model.SearchResults, page => Url.Action("Index", new
+               {
+                   page,
+                   Model.MaHocVien,
+                   Model.TenHocVien
+               }))
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

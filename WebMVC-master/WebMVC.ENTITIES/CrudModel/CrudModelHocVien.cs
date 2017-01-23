@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,6 +12,9 @@ namespace WebMVC.ENTITIES.CrudModel
     {
         public long MaHocVien { get; set; }
         public string TenHocVien { get; set; }
+
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public Nullable<System.DateTime> NgaySinh { get; set; }
         public string DienThoai { get; set; }
         public string Email { get; set; }

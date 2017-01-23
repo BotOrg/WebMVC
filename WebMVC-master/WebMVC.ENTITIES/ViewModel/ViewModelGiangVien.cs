@@ -1,6 +1,7 @@
 ﻿using PagedList;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,7 +16,10 @@ namespace WebMVC.ENTITIES.ViewModel
         public int? Page { get; set; }
         public long MaGiangVien { get; set; }
         public string TenGiangVien { get; set; }
+
+        [DisplayFormat(DataFormatString = "{0:dd MMM yyyy}")]
         public Nullable<System.DateTime> NgaySinh { get; set; }
+
         public string TieuSu { get; set; }
         public string HocVi { get; set; }
         public string AnhDaiDien { get; set; }

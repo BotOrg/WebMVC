@@ -61,3 +61,24 @@ E:\Programming\GitHub\WebMVC\WebMVC.COMMON\bin\Debug\System.Web.WebPages.Razor.x
 E:\Programming\GitHub\WebMVC\WebMVC.COMMON\obj\Debug\WebMVC.COMMON.csprojResolveAssemblyReference.cache
 E:\Programming\GitHub\WebMVC\WebMVC.COMMON\obj\Debug\WebMVC.COMMON.dll
 E:\Programming\GitHub\WebMVC\WebMVC.COMMON\obj\Debug\WebMVC.COMMON.pdb
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.COMMON\bin\Debug\WebMVC.COMMON.dll
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.COMMON\bin\Debug\WebMVC.COMMON.pdb
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.COMMON\bin\Debug\Excel.dll
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.COMMON\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.COMMON\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.COMMON\bin\Debug\System.Web.Helpers.dll
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.COMMON\bin\Debug\System.Web.Mvc.dll
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.COMMON\bin\Debug\System.Web.Razor.dll
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.COMMON\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.COMMON\bin\Debug\System.Web.WebPages.dll
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.COMMON\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.COMMON\bin\Debug\Excel.pdb
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.COMMON\bin\Debug\System.Web.Helpers.xml
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.COMMON\bin\Debug\System.Web.Mvc.xml
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.COMMON\bin\Debug\System.Web.Razor.xml
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.COMMON\bin\Debug\System.Web.WebPages.xml
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.COMMON\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.COMMON\bin\Debug\System.Web.WebPages.Razor.xml
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.COMMON\obj\Debug\WebMVC.COMMON.dll
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.COMMON\obj\Debug\WebMVC.COMMON.pdb
+E:\Programming\GitHub\New folder\WebMVC\WebMVC-master\WebMVC.COMMON\obj\Debug\WebMVC.COMMON.csprojResolveAssemblyReference.cache
