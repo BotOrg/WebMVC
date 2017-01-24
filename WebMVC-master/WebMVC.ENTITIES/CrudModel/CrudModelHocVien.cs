@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WebMVC.DataAccessLayer;
 
 namespace WebMVC.ENTITIES.CrudModel
 {
@@ -23,6 +24,6 @@ namespace WebMVC.ENTITIES.CrudModel
         public Nullable<int> MaCapHocVien { get; set; }
         public Nullable<int> MaGioiTinh { get; set; }
 
-        public virtual CrudModelDMGioiTinh DMGioiTinh { get; set; }
+        //public virtual DMGioiTinh DMGioiTinh { get; set; }
     }
 }

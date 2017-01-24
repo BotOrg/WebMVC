@@ -1,0 +1,123 @@
+﻿@model WebMVC.ENTITIES.CrudModel.CrudModelHocVien
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@section header{
+    Cập nhật học viên
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Nhập thông tin học viên.
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-6">
+                        @using (Html.BeginForm("Edit", "HocVien", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.HiddenFor(model => model.MaHocVien)
+                            <hr />
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="row">
+                                <div class="col-md-4 control-label">
+                                    Tên học viên:
+                                </div>
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(model => model.TenHocVien, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.TenHocVien, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="control-label col-md-4">
+                                    Ngày sinh:
+                                </div>
+                                <div class="col-md-5">
+                                    @Html.EditorFor(model => model.NgaySinh, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.NgaySinh, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 control-label">
+                                    Giới tính :
+                                </div>
+                                <div class="col-md-5">
+                                    @Html.DropDownListFor(model => model.MaGioiTinh, (SelectList)ViewBag.lstGioiTinh, "Lựa Chọn", new { @class = "form-control", @id = "lstActivedll_dll" })
+                                    @Html.ValidationMessageFor(model => model.MaGioiTinh, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-4 control-label">
+                                    Điện thoại:
+                                </div>
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(model => model.DienThoai, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.DienThoai, "", new { @class = "text-danger" })
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 control-label">
+                                    Email:
+                                </div>
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 control-label">
+                                    CMND:
+                                </div>
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(model => model.CMTND, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.CMTND, "", new { @class = "text-danger" })
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 control-label">
+                                    Nơi sinh:
+                                </div>
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(model => model.NoiSinh, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.NoiSinh, "", new { @class = "text-danger" })
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 control-label">
+                                    Mã cấp HV:
+                                </div>
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(model => model.MaCapHocVien, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.MaCapHocVien, "", new { @class = "text-danger" })
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-10 ">
+                                    <button type="submit" class="btn btn-primary">
+                                        <span class="glyphicon glyphicon-floppy-disk"></span> Cập nhật
+                                    </button>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
