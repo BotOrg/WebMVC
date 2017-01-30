@@ -56,7 +56,7 @@ namespace WebMVC.Areas.Admin.Controllers
                 }
                 catch (Exception)
                 {
-                    ModelState.AddModelError("", "Thêm quản trị viên thất bại.");
+                    ModelState.AddModelError("", "Thêm giảng viên viên thất bại.");
                 }
             }
             return View("Index");
