@@ -76,7 +76,14 @@
     <Compile Include="CrudModel\CrudModelQuanTriVien.cs" />
     <Compile Include="CrudModel\CrudModelSlideShow.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\ViewModelDMChuDe.cs" />
+    <Compile Include="ViewModel\ViewModelDMChuDeBaiViet.cs" />
+    <Compile Include="ViewModel\ViewModelDMCapHocVien.cs" />
+    <Compile Include="ViewModel\ViewModelDMHienThi.cs" />
+    <Compile Include="ViewModel\ViewModelDMLoaiKhoaHoc.cs" />
+    <Compile Include="ViewModel\ViewModelDMNgonNguLapTrinh.cs" />
     <Compile Include="ViewModel\ViewModelGiangVien.cs" />
+    <Compile Include="ViewModel\ViewModelDMGioiTinh.cs" />
     <Compile Include="ViewModel\ViewModelHocVien.cs" />
     <Compile Include="ViewModel\ViewModelQTV.cs" />
   </ItemGroup>

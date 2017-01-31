@@ -1,0 +1,93 @@
+﻿@model WebMVC.ENTITIES.ViewModel.ViewModelDMCapHocVien
+
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@section header{
+    Danh sách cấp học viên
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">Thông tin cấp học vie</div>
+            <div class="panel-body">
+                <div class="row">
+                    @using (Html.BeginForm("Index", "DMCapHocVien", FormMethod.Get))
+            {
+                        <div class="row form-group">
+                            <div class="col-lg-12">
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(model => model.TenCapHocVien, new { @class = "form-control" })
+                                </div>
+                                <div class="col-md-4">
+                                    <button type="submit" class="btn btn-success">Tìm kiếm</button>
+                                    <a class="btn btn-primary" href="/Admin/DMCapHocVien/Create">Thêm mới</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+                @*<legend class="head_title">Kết quả tìm kiếm</legend>*@
+
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Tên cấp học viên
+                                </th>
+                                <th>
+                                    Mô tẩ
+                                </th>
+                               
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                if (Model.SearchResults != null)
+                                {
+                                    foreach (var item in Model.SearchResults)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.TenCapHocVien)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.MoTa)
+                                            </td>
+                                            
+                                            <td>
+                                                <div class="pull-right">
+
+                                                    <a href="@Url.Action("Edit", "DMCapHocVien", new { MaDMCapHocVien = item.MaCapHocVien })">
+                                                        <img src="@Url.Content("/fonts/grid-edit-icon.png")" title="Sửa" />
+                                                    </a>
+                                                    <a href="@Url.Action("Delete", "DMCapHocVien", new { MaHocVien = item.MaCapHocVien })" delete- delete-modal="">
+                                                        <img src="@Url.Content("/fonts/grid-delete-icon1.gif")" title="Hủy giảng viên" />
+                                                    </a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                                        }
+                                                    }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="pagination-sm" style="clear:both; padding: 5px 0;">
+                    @Html.PagedListPager(Model.SearchResults, page => Url.Action("Index", new
+               {
+                   page,
+                   Model.MaCapHocVien,
+                   Model.TenCapHocVien
+               }))
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

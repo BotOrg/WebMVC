@@ -12,7 +12,6 @@ using WebMVC.ENTITIES.CrudModel;
 
 namespace WebMVC.Areas.Admin.Controllers
 {
-    [Serializable]
     public class GiangVienController : BaseController
     {
         DbContextHelper<WebMVC_ModelDbContext> _db = Singleton<DbContextHelper<WebMVC_ModelDbContext>>.Inst;
@@ -57,7 +56,7 @@ namespace WebMVC.Areas.Admin.Controllers
                 }
                 catch (Exception)
                 {
-                    ModelState.AddModelError("", "Thêm quản trị viên thất bại.");
+                    ModelState.AddModelError("", "Thêm giảng viên viên thất bại.");
                 }
             }
             return View("Index");
@@ -95,6 +94,18 @@ namespace WebMVC.Areas.Admin.Controllers
             return RedirectToAction("Index");
 
         }
+        #endregion
+
+        #region Delete
+        public ActionResult Delete(long MaGiangVien)
+        {
+            _db.DbContext.Configuration.ProxyCreationEnabled = false;
+            GiangVien model = _db.GetOne<GiangVien>(o => o.MaGiangVien == MaGiangVien);
+            _db.DeleteItem<GiangVien>(model);
+
+            return RedirectToAction("Index");
+        }
+
         #endregion
 
         public void initialCategoryEditAction(CrudModelGiangVien view)
