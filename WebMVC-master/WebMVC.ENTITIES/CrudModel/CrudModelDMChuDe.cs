@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WebMVC.DataAccessLayer;
 
 namespace WebMVC.ENTITIES.CrudModel
 {
@@ -11,7 +12,7 @@ namespace WebMVC.ENTITIES.CrudModel
     {
         public CrudModelDMChuDe()
         {
-            this.KhoaHocs = new HashSet<CrudModelKhoaHoc>();
+            this.KhoaHocs = new HashSet<KhoaHoc>();
         }
 
         public int MaChuDe { get; set; }
@@ -20,6 +21,6 @@ namespace WebMVC.ENTITIES.CrudModel
         public Nullable<int> ChuDeCha { get; set; }
         public Nullable<int> MoTa { get; set; }
 
-        public virtual ICollection<CrudModelKhoaHoc> KhoaHocs { get; set; }
+        public virtual ICollection<KhoaHoc> KhoaHocs { get; set; }
     }
 }

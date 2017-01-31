@@ -11,7 +11,8 @@ namespace WebMVC.DataAccessLayer
 {
     using System;
     using System.Collections.Generic;
-    
+
+    [Serializable]
     public partial class DMHienThi
     {
         public DMHienThi()

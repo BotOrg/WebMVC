@@ -12,8 +12,9 @@ namespace WebMVC.ENTITIES.ViewModel
     public class ViewModelDMGioiTinh
     {
         public int MaGioiTinh { get; set; }
-        public int? Page { get; set; }
         public string TenGioiTinh { get; set; }
+
+        public int? Page { get; set; }
         public IPagedList<DMGioiTinh> SearchResults { get; set; }
     }
 }
