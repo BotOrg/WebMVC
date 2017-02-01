@@ -1,16 +1,16 @@
-﻿using System;
+﻿using PagedList;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WebMVC.DataAccessLayer;
 
-namespace WebMVC.ENTITIES.CrudModel
+namespace WebMVC.ENTITIES.ViewModel
 {
-    [Serializable]
-    public class CrudModelKhoaHoc
+    public class ViewModelKhoaHoc
     {
-        public CrudModelKhoaHoc()
+        public ViewModelKhoaHoc()
         {
             this.KhoaHoc_GiangVien = new HashSet<KhoaHoc_GiangVien>();
             this.SlideShows = new HashSet<SlideShow>();
@@ -39,5 +39,9 @@ namespace WebMVC.ENTITIES.CrudModel
         public virtual DMNgonNguLapTrinh DMNgonNguLapTrinh { get; set; }
         public virtual ICollection<KhoaHoc_GiangVien> KhoaHoc_GiangVien { get; set; }
         public virtual ICollection<SlideShow> SlideShows { get; set; }
+
+
+        public int? Page { get; set; }
+        public IPagedList<KhoaHoc> SearchResults { get; set; }
     }
 }

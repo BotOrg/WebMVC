@@ -85,6 +85,7 @@
     <Compile Include="ViewModel\ViewModelGiangVien.cs" />
     <Compile Include="ViewModel\ViewModelDMGioiTinh.cs" />
     <Compile Include="ViewModel\ViewModelHocVien.cs" />
+    <Compile Include="ViewModel\ViewModelKhoaHoc.cs" />
     <Compile Include="ViewModel\ViewModelQTV.cs" />
   </ItemGroup>
   <ItemGroup>
